@@ -1,0 +1,157 @@
+.banner {
+    width: 100%;
+    height: 958px;
+    background: url('../img/week2/banner.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .content {
+    color: white;
+}
+
+.banner .content h1 {
+    font-size: 80px;
+    line-height: 106px;
+}
+
+.banner .content span {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.banner .content p {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.banner .content .icon-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.about {
+    padding: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about .introduce {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: 24px 0;
+    border-bottom: 1px black solid;
+}
+
+.about ul {
+    margin-top: 14px;
+}
+
+.about li {
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: bold;
+}
+
+.about li span {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    vertical-align: baseline;
+    background-color: #891818;
+    margin-right: 16px;
+    border-radius: 50%;
+}
+
+.brand {
+    width: 1200px;
+    padding: 56px 0 160px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 40px;
+}
+
+.brand .text {
+    width: 100%;
+    padding-bottom: 28px;
+    color: white;
+    text-align: center;
+}
+
+.brand .text p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.works {
+    width: 1200px;
+    padding-bottom: 96px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 48px;
+    text-align: center;
+
+}
+
+.works .text {
+    width: 100%;
+    padding: 56px 0 32px 0;
+}
+
+.works .text p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.works .name {
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.contact {
+    padding: 64px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact li{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.title {
+    font-size: 64px;
+    line-height: 84px;
+}
+
+.black-bg {
+    background-color: black;
+    color: white;
+}
+
+.mb-2 {
+    margin-bottom: 16px;
+}
+
+.mb-4 {
+    margin-bottom: 32px;
+}
+
+.mb-5 {
+    margin-bottom: 40px;
+}
